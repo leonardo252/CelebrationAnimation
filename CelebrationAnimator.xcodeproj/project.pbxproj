@@ -14,7 +14,42 @@
 		A7FB50E026A843CB00D20F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FB50DF26A843CB00D20F0F /* Assets.xcassets */; };
 		A7FB50E326A843CB00D20F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB50E126A843CB00D20F0F /* LaunchScreen.storyboard */; };
 		A7FB50E626A843CB00D20F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50E526A843CB00D20F0F /* main.m */; };
+		A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7FB50FA26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
+		A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB510026A845A100D20F0F /* HelloLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510126A845A100D20F0F /* HelloLogger.m */; };
+		A7FB510B26A849BD00D20F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510A26A849BD00D20F0F /* AppDelegate.swift */; };
+		A7FB510D26A849BD00D20F0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */; };
+		A7FB510F26A849BD00D20F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510E26A849BD00D20F0F /* ViewController.swift */; };
+		A7FB511226A849BD00D20F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB511026A849BD00D20F0F /* Main.storyboard */; };
+		A7FB511426A849BF00D20F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FB511326A849BF00D20F0F /* Assets.xcassets */; };
+		A7FB511726A849BF00D20F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB511526A849BF00D20F0F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7FB50F826A844FD00D20F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FB50C826A843CA00D20F0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FB50F226A844FD00D20F0F;
+			remoteInfo = CelebrationAnimatorFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7FB50FF26A844FD00D20F0F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +64,38 @@
 		A7FB50E226A843CB00D20F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7FB50E426A843CB00D20F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7FB50E526A843CB00D20F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CelebrationAnimatorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelebrationAnimatorFramework.h; sourceTree = "<group>"; };
+		A7FB50F626A844FD00D20F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FB510026A845A100D20F0F /* HelloLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloLogger.h; sourceTree = "<group>"; };
+		A7FB510126A845A100D20F0F /* HelloLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLogger.m; sourceTree = "<group>"; };
+		A7FB510826A849BD00D20F0F /* CelebrationAnimatorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimatorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FB510A26A849BD00D20F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7FB510E26A849BD00D20F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7FB511126A849BD00D20F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FB511326A849BF00D20F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FB511626A849BF00D20F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7FB511826A849BF00D20F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A7FB50CD26A843CA00D20F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FB50FA26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FB50F026A844FD00D20F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FB510526A849BD00D20F0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				A7FB50D226A843CA00D20F0F /* CelebrationAnimator */,
+				A7FB510926A849BD00D20F0F /* CelebrationAnimatorSwift */,
+				A7FB50F426A844FD00D20F0F /* CelebrationAnimatorFramework */,
 				A7FB50D126A843CA00D20F0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */,
+				A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */,
+				A7FB510826A849BD00D20F0F /* CelebrationAnimatorSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,12 +128,8 @@
 		A7FB50D226A843CA00D20F0F /* CelebrationAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				A7FB50D326A843CA00D20F0F /* AppDelegate.h */,
-				A7FB50D426A843CA00D20F0F /* AppDelegate.m */,
-				A7FB50D626A843CA00D20F0F /* SceneDelegate.h */,
-				A7FB50D726A843CA00D20F0F /* SceneDelegate.m */,
-				A7FB50D926A843CA00D20F0F /* ViewController.h */,
-				A7FB50DA26A843CA00D20F0F /* ViewController.m */,
+				A7FB50ED26A843F900D20F0F /* Controller */,
+				A7FB50EC26A843E600D20F0F /* Config */,
 				A7FB50DC26A843CA00D20F0F /* Main.storyboard */,
 				A7FB50DF26A843CB00D20F0F /* Assets.xcassets */,
 				A7FB50E126A843CB00D20F0F /* LaunchScreen.storyboard */,
@@ -76,7 +139,64 @@
 			path = CelebrationAnimator;
 			sourceTree = "<group>";
 		};
+		A7FB50EC26A843E600D20F0F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB50D326A843CA00D20F0F /* AppDelegate.h */,
+				A7FB50D426A843CA00D20F0F /* AppDelegate.m */,
+				A7FB50D626A843CA00D20F0F /* SceneDelegate.h */,
+				A7FB50D726A843CA00D20F0F /* SceneDelegate.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A7FB50ED26A843F900D20F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB50D926A843CA00D20F0F /* ViewController.h */,
+				A7FB50DA26A843CA00D20F0F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7FB50F426A844FD00D20F0F /* CelebrationAnimatorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */,
+				A7FB50F626A844FD00D20F0F /* Info.plist */,
+				A7FB510026A845A100D20F0F /* HelloLogger.h */,
+				A7FB510126A845A100D20F0F /* HelloLogger.m */,
+			);
+			path = CelebrationAnimatorFramework;
+			sourceTree = "<group>";
+		};
+		A7FB510926A849BD00D20F0F /* CelebrationAnimatorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB510A26A849BD00D20F0F /* AppDelegate.swift */,
+				A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */,
+				A7FB510E26A849BD00D20F0F /* ViewController.swift */,
+				A7FB511026A849BD00D20F0F /* Main.storyboard */,
+				A7FB511326A849BF00D20F0F /* Assets.xcassets */,
+				A7FB511526A849BF00D20F0F /* LaunchScreen.storyboard */,
+				A7FB511826A849BF00D20F0F /* Info.plist */,
+			);
+			path = CelebrationAnimatorSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7FB50EE26A844FD00D20F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */,
+				A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A7FB50CF26A843CA00D20F0F /* CelebrationAnimator */ = {
@@ -86,14 +206,51 @@
 				A7FB50CC26A843CA00D20F0F /* Sources */,
 				A7FB50CD26A843CA00D20F0F /* Frameworks */,
 				A7FB50CE26A843CA00D20F0F /* Resources */,
+				A7FB50FF26A844FD00D20F0F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FB50F926A844FD00D20F0F /* PBXTargetDependency */,
+			);
+			name = CelebrationAnimator;
+			productName = CelebrationAnimator;
+			productReference = A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7FB50F226A844FD00D20F0F /* CelebrationAnimatorFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FB50FC26A844FD00D20F0F /* Build configuration list for PBXNativeTarget "CelebrationAnimatorFramework" */;
+			buildPhases = (
+				A7FB50EE26A844FD00D20F0F /* Headers */,
+				A7FB50EF26A844FD00D20F0F /* Sources */,
+				A7FB50F026A844FD00D20F0F /* Frameworks */,
+				A7FB50F126A844FD00D20F0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CelebrationAnimator;
-			productName = CelebrationAnimator;
-			productReference = A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */;
+			name = CelebrationAnimatorFramework;
+			productName = CelebrationAnimatorFramework;
+			productReference = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7FB510726A849BD00D20F0F /* CelebrationAnimatorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FB511926A849BF00D20F0F /* Build configuration list for PBXNativeTarget "CelebrationAnimatorSwift" */;
+			buildPhases = (
+				A7FB510426A849BD00D20F0F /* Sources */,
+				A7FB510526A849BD00D20F0F /* Frameworks */,
+				A7FB510626A849BD00D20F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CelebrationAnimatorSwift;
+			productName = CelebrationAnimatorSwift;
+			productReference = A7FB510826A849BD00D20F0F /* CelebrationAnimatorSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,9 +259,16 @@
 		A7FB50C826A843CA00D20F0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					A7FB50CF26A843CA00D20F0F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A7FB50F226A844FD00D20F0F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A7FB510726A849BD00D20F0F = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -123,6 +287,8 @@
 			projectRoot = "";
 			targets = (
 				A7FB50CF26A843CA00D20F0F /* CelebrationAnimator */,
+				A7FB50F226A844FD00D20F0F /* CelebrationAnimatorFramework */,
+				A7FB510726A849BD00D20F0F /* CelebrationAnimatorSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +301,23 @@
 				A7FB50E326A843CB00D20F0F /* LaunchScreen.storyboard in Resources */,
 				A7FB50E026A843CB00D20F0F /* Assets.xcassets in Resources */,
 				A7FB50DE26A843CA00D20F0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FB50F126A844FD00D20F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FB510626A849BD00D20F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FB511726A849BF00D20F0F /* LaunchScreen.storyboard in Resources */,
+				A7FB511426A849BF00D20F0F /* Assets.xcassets in Resources */,
+				A7FB511226A849BD00D20F0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +335,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7FB50EF26A844FD00D20F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FB510426A849BD00D20F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FB510F26A849BD00D20F0F /* ViewController.swift in Sources */,
+				A7FB510B26A849BD00D20F0F /* AppDelegate.swift in Sources */,
+				A7FB510D26A849BD00D20F0F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7FB50F926A844FD00D20F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FB50F226A844FD00D20F0F /* CelebrationAnimatorFramework */;
+			targetProxy = A7FB50F826A844FD00D20F0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7FB50DC26A843CA00D20F0F /* Main.storyboard */ = {
@@ -167,6 +376,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A7FB50E226A843CB00D20F0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FB511026A849BD00D20F0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FB511126A849BD00D20F0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FB511526A849BF00D20F0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FB511626A849BF00D20F0F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -322,6 +547,100 @@
 			};
 			name = Release;
 		};
+		A7FB50FD26A844FD00D20F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CelebrationAnimatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoGomes.CelebrationAnimatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7FB50FE26A844FD00D20F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CelebrationAnimatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoGomes.CelebrationAnimatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7FB511A26A849BF00D20F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				INFOPLIST_FILE = CelebrationAnimatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoGomes.CelebrationAnimatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7FB511B26A849BF00D20F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				INFOPLIST_FILE = CelebrationAnimatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoGomes.CelebrationAnimatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +658,24 @@
 			buildConfigurations = (
 				A7FB50EA26A843CB00D20F0F /* Debug */,
 				A7FB50EB26A843CB00D20F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FB50FC26A844FD00D20F0F /* Build configuration list for PBXNativeTarget "CelebrationAnimatorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FB50FD26A844FD00D20F0F /* Debug */,
+				A7FB50FE26A844FD00D20F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FB511926A849BF00D20F0F /* Build configuration list for PBXNativeTarget "CelebrationAnimatorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FB511A26A849BF00D20F0F /* Debug */,
+				A7FB511B26A849BF00D20F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
