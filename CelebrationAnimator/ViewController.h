@@ -1,0 +1,14 @@
+//
+//  ViewController.h
+//  CelebrationAnimator
+//
+//  Created by Leonardo Gomes on 21/07/21.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
