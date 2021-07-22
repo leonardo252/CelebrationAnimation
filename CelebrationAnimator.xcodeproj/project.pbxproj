@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA43F1426A99085008816F5 /* ObjectAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA43F1326A99085008816F5 /* ObjectAnimated.m */; };
 		A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D426A843CA00D20F0F /* AppDelegate.m */; };
 		A7FB50D826A843CA00D20F0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D726A843CA00D20F0F /* SceneDelegate.m */; };
 		A7FB50DB26A843CA00D20F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50DA26A843CA00D20F0F /* ViewController.m */; };
@@ -52,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7CA43F1226A99085008816F5 /* ObjectAnimated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAnimated.h; sourceTree = "<group>"; };
+		7CA43F1326A99085008816F5 /* ObjectAnimated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAnimated.m; sourceTree = "<group>"; };
 		A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB50D326A843CA00D20F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7FB50D426A843CA00D20F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CA43F1126A99037008816F5 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7CA43F1226A99085008816F5 /* ObjectAnimated.h */,
+				7CA43F1326A99085008816F5 /* ObjectAnimated.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		A7FB50C726A843CA00D20F0F = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		A7FB50D226A843CA00D20F0F /* CelebrationAnimator */ = {
 			isa = PBXGroup;
 			children = (
+				7CA43F1126A99037008816F5 /* Animation */,
 				A7FB50ED26A843F900D20F0F /* Controller */,
 				A7FB50EC26A843E600D20F0F /* Config */,
 				A7FB50DC26A843CA00D20F0F /* Main.storyboard */,
@@ -328,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA43F1426A99085008816F5 /* ObjectAnimated.m in Sources */,
 				A7FB50DB26A843CA00D20F0F /* ViewController.m in Sources */,
 				A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */,
 				A7FB50E626A843CB00D20F0F /* main.m in Sources */,
@@ -450,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -503,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
