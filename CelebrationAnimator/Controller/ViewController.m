@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
     
 //    HelloLogger *logger = [[HelloLogger alloc] init];
 //    HelloLogger *newLogger = new HelloLogger();
@@ -27,12 +26,47 @@
     
     
     UIImageView *imageHolder = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2, -50, 50, 50)];
-    UIImage *image = [UIImage imageNamed:@"circle.png"];
-    imageHolder.image = image;
-    [self.view addSubview:imageHolder];
+//    UIImage *image = [UIImage imageNamed:@"circle.png"];
+//    imageHolder.image = image;
+//    [self.view addSubview:imageHolder];
 
     ObjectAnimated *animation = [[ObjectAnimated alloc] initWithLayer:self.view layer:imageHolder.layer];
-    animation.animate;
+//    [animation animate];
+    
+    for (int i = 1; i <= 10; i++)
+    {
+        [animation addAnimate];
+
+    }
+    NSTimeInterval delayInSeconds = 2.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        for (int i = 1; i <= 10; i++)
+        {
+            [animation addAnimate];
+
+        }
+    });
+    
+    delayInSeconds = 4.0;
+    popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        for (int i = 1; i <= 10; i++)
+        {
+            [animation addAnimate];
+
+        }
+    });
+
+    delayInSeconds = 6.0;
+    popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        for (int i = 1; i <= 10; i++)
+        {
+            [animation addAnimate];
+
+        }
+    });
 
 }
 

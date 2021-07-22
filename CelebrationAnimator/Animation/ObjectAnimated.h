@@ -6,15 +6,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#include <stdlib.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ObjectAnimated : UIView
+@interface ObjectAnimated : NSObject
 
 - (instancetype)initWithLayer:(UIView *)view
                         layer:(CALayer*) layer;
 
 -(void)animate;
+-(void)addAnimate;
 
 @end
 
