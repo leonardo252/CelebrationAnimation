@@ -12,6 +12,7 @@
     UIBezierPath *path;
     UIView *viewIn;
     CALayer *layerAnimation;
+    CAKeyframeAnimation* animation;
 }
 
 - (UIView *) drawObject;
@@ -26,6 +27,7 @@
     if (self = [super init]) {
         viewIn = view;
         layerAnimation = layer;
+        
     }
 
     return self;
@@ -55,6 +57,9 @@
 }
 
 -(void)addAnimate: (NSTimeInterval ) time {
+    
+    int repeates = 2;
+    
     // Objects's Draw
     UIView *myBox = [self drawObject];
     [viewIn addSubview: myBox];
@@ -71,16 +76,19 @@
 //    [viewIn.layer addSublayer:layerShape];
 
     //  Animating layer
-    CAKeyframeAnimation* animation = [CAKeyframeAnimation animation];
+    animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position";
     animation.path = circularPath.CGPath;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     animation.duration = time;
-    animation.repeatCount = HUGE_VALF;
+//    animation.repeatCount = HUGE_VALF;
+    animation.removedOnCompletion = YES;
+    animation.repeatCount = repeates;
     animation.autoreverses = NO;
     animation.rotationMode = kCAAnimationRotateAuto;
     [myBox.layer addAnimation: animation forKey: @"position"];
-
+    
+    [myBox performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:time * repeates];
 }
 
 

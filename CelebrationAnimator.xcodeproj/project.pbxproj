@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CA43F1426A99085008816F5 /* ObjectAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA43F1326A99085008816F5 /* ObjectAnimated.m */; };
+		A74B821226AB0F7C002459F6 /* ObjectAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821026AB0F7C002459F6 /* ObjectAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74B821326AB0F7C002459F6 /* ObjectAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821126AB0F7C002459F6 /* ObjectAnimated.m */; };
+		A74B821726AB1058002459F6 /* CelebrationAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821526AB1058002459F6 /* CelebrationAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74B821826AB1058002459F6 /* CelebrationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821626AB1058002459F6 /* CelebrationAnimator.m */; };
 		A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D426A843CA00D20F0F /* AppDelegate.m */; };
 		A7FB50D826A843CA00D20F0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D726A843CA00D20F0F /* SceneDelegate.m */; };
 		A7FB50DB26A843CA00D20F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50DA26A843CA00D20F0F /* ViewController.m */; };
@@ -53,8 +56,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7CA43F1226A99085008816F5 /* ObjectAnimated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAnimated.h; sourceTree = "<group>"; };
-		7CA43F1326A99085008816F5 /* ObjectAnimated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAnimated.m; sourceTree = "<group>"; };
+		A74B821026AB0F7C002459F6 /* ObjectAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectAnimated.h; sourceTree = "<group>"; };
+		A74B821126AB0F7C002459F6 /* ObjectAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectAnimated.m; sourceTree = "<group>"; };
+		A74B821526AB1058002459F6 /* CelebrationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebrationAnimator.h; sourceTree = "<group>"; };
+		A74B821626AB1058002459F6 /* CelebrationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebrationAnimator.m; sourceTree = "<group>"; };
 		A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB50D326A843CA00D20F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7FB50D426A843CA00D20F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,13 +113,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7CA43F1126A99037008816F5 /* Animation */ = {
+		A74B820F26AB0F6B002459F6 /* Object Animation */ = {
 			isa = PBXGroup;
 			children = (
-				7CA43F1226A99085008816F5 /* ObjectAnimated.h */,
-				7CA43F1326A99085008816F5 /* ObjectAnimated.m */,
+				A74B821026AB0F7C002459F6 /* ObjectAnimated.h */,
+				A74B821126AB0F7C002459F6 /* ObjectAnimated.m */,
 			);
-			path = Animation;
+			path = "Object Animation";
+			sourceTree = "<group>";
+		};
+		A74B821426AB1045002459F6 /* Animation Controll */ = {
+			isa = PBXGroup;
+			children = (
+				A74B821526AB1058002459F6 /* CelebrationAnimator.h */,
+				A74B821626AB1058002459F6 /* CelebrationAnimator.m */,
+			);
+			path = "Animation Controll";
 			sourceTree = "<group>";
 		};
 		A7FB50C726A843CA00D20F0F = {
@@ -140,7 +154,6 @@
 		A7FB50D226A843CA00D20F0F /* CelebrationAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				7CA43F1126A99037008816F5 /* Animation */,
 				A7FB50ED26A843F900D20F0F /* Controller */,
 				A7FB50EC26A843E600D20F0F /* Config */,
 				A7FB50DC26A843CA00D20F0F /* Main.storyboard */,
@@ -175,6 +188,8 @@
 		A7FB50F426A844FD00D20F0F /* CelebrationAnimatorFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A74B821426AB1045002459F6 /* Animation Controll */,
+				A74B820F26AB0F6B002459F6 /* Object Animation */,
 				A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */,
 				A7FB50F626A844FD00D20F0F /* Info.plist */,
 				A7FB510026A845A100D20F0F /* HelloLogger.h */,
@@ -206,6 +221,8 @@
 			files = (
 				A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */,
 				A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */,
+				A74B821726AB1058002459F6 /* CelebrationAnimator.h in Headers */,
+				A74B821226AB0F7C002459F6 /* ObjectAnimated.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA43F1426A99085008816F5 /* ObjectAnimated.m in Sources */,
 				A7FB50DB26A843CA00D20F0F /* ViewController.m in Sources */,
 				A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */,
 				A7FB50E626A843CB00D20F0F /* main.m in Sources */,
@@ -354,6 +370,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */,
+				A74B821826AB1058002459F6 /* CelebrationAnimator.m in Sources */,
+				A74B821326AB0F7C002459F6 /* ObjectAnimated.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

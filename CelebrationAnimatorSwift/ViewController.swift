@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         logger.hello(withText: "Leo e Mateus")
         logger.notHelloText("Leo e Mateus")
         
+        let animator = CelebrationAnimator(self.view)
+        animator.startAnimation()
+        
     }
 
     

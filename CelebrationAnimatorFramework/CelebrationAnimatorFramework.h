@@ -16,3 +16,5 @@ FOUNDATION_EXPORT const unsigned char CelebrationAnimatorFrameworkVersionString[
 // In this header, you should import all the public headers of your framework using statements like #import <CelebrationAnimatorFramework/PublicHeader.h>
 
 #import <CelebrationAnimatorFramework/HelloLogger.h>
+#import <CelebrationAnimatorFramework/ObjectAnimated.h>
+#import <CelebrationAnimatorFramework/CelebrationAnimator.h>
