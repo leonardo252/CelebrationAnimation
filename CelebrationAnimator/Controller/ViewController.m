@@ -35,7 +35,7 @@
     
     for (int i = 1; i <= 10; i++)
     {
-        [animation addAnimate];
+        [animation addAnimate: 2];
 
     }
     NSTimeInterval delayInSeconds = 2.0;
@@ -43,7 +43,7 @@
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         for (int i = 1; i <= 10; i++)
         {
-            [animation addAnimate];
+            [animation addAnimate: 5];
 
         }
     });
@@ -53,7 +53,7 @@
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         for (int i = 1; i <= 10; i++)
         {
-            [animation addAnimate];
+            [animation addAnimate: 8];
 
         }
     });
@@ -63,7 +63,7 @@
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         for (int i = 1; i <= 10; i++)
         {
-            [animation addAnimate];
+            [animation addAnimate: 10];
 
         }
     });

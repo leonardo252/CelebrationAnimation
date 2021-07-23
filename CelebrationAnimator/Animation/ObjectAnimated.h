@@ -15,9 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithLayer:(UIView *)view
                         layer:(CALayer*) layer;
 
--(void)animate;
--(void)addAnimate;
-
+- (void)addAnimate:(NSTimeInterval) time;
 @end
 
 NS_ASSUME_NONNULL_END
