@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #include <stdlib.h>
+#include <AnimatorClass.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

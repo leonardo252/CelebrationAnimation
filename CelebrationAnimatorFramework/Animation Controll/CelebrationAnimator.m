@@ -6,11 +6,9 @@
 //
 
 #import "CelebrationAnimator.h"
-#import "ObjectAnimated.h"
 
 @interface CelebrationAnimator () {
     UIView *mainView;
-
 }
 
 @end
@@ -27,21 +25,49 @@
 
 
 - (void) startAnimation {
-    UIImageView *imageHolder = [[UIImageView alloc] initWithFrame:CGRectMake(mainView.frame.size.width/2, -50, 50, 50)];
-    ObjectAnimated *animation = [[ObjectAnimated alloc] initWithLayer:mainView layer:imageHolder.layer];
-
+    
+    AnimatorClass *animator = [[AnimatorClass alloc] initWithView: mainView];
+    
     for (double r = 1.0; r < 5.0; r+=0.1) {
         NSTimeInterval delayInSeconds = r;
         dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
             for (int i = 1; i <= 5; i++)
             {
-                [animation addAnimate: 4];
+                [animator animateConffeti: 4];
+
+            }
+        });
+    }
+    for (double r = 1.0; r < 2.0; r+=0.2) {
+        NSTimeInterval delayInSeconds = r;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            for (int i = 1; i <= 5; i++)
+            {
+                [animator animateBallon: 4];
 
             }
         });
     }
 }
+
+//- (void) startAnimation {
+//    UIImageView *imageHolder = [[UIImageView alloc] initWithFrame:CGRectMake(mainView.frame.size.width/2, -50, 50, 50)];
+//    ObjectAnimated *animation = [[ObjectAnimated alloc] initWithLayer:mainView layer:imageHolder.layer];
+//
+//    for (double r = 1.0; r < 5.0; r+=0.1) {
+//        NSTimeInterval delayInSeconds = r;
+//        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+//        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+//            for (int i = 1; i <= 5; i++)
+//            {
+//                [animation addAnimate: 4];
+//
+//            }
+//        });
+//    }
+//}
 
 
 //    UIImage *image = [UIImage imageNamed:@"circle.png"];

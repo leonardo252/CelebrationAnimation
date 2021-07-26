@@ -18,3 +18,5 @@ FOUNDATION_EXPORT const unsigned char CelebrationAnimatorFrameworkVersionString[
 #import <CelebrationAnimatorFramework/HelloLogger.h>
 #import <CelebrationAnimatorFramework/ObjectAnimated.h>
 #import <CelebrationAnimatorFramework/CelebrationAnimator.h>
+#import <CelebrationAnimatorFramework/AnimatorClass.h>
+#import <CelebrationAnimatorFramework/DrawingClass.h>

@@ -6,9 +6,8 @@
 //
 
 #import "ViewController.h"
-#import "HelloLogger.h"
-#import "ObjectAnimated.h"
-#import "CelebrationAnimator.h"
+//#import "HelloLogger.h"
+#import <CelebrationAnimatorFramework/>
 
 @interface ViewController ()
 
@@ -27,6 +26,49 @@
     CelebrationAnimator *animator = [[CelebrationAnimator alloc] init:self.view ];
     [animator startAnimation];
     
+
+//    UIView *myBox  = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 70, 70)];
+//
+//
+//    // Oval Drawing
+//    UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(85, 16, 47, 63)];
+//    CAShapeLayer *shapeOval = [CAShapeLayer layer];
+//    shapeOval.fillColor = CGColorCreateSRGB(244, 0, 0, 1);
+//    shapeOval.path = ovalPath.CGPath;
+//    [myBox.layer addSublayer:shapeOval];
+//
+//    UIBezierPath* rabinho = [UIBezierPath bezierPath];
+//    [rabinho moveToPoint: CGPointMake(108.5, 110.5)];
+//    [rabinho addCurveToPoint: CGPointMake(105.5, 91.5) controlPoint1: CGPointMake(114.5, 94.5) controlPoint2: CGPointMake(105.5, 95.75)];
+//    [rabinho addCurveToPoint: CGPointMake(108.5, 78.5) controlPoint1: CGPointMake(105.5, 87.25) controlPoint2: CGPointMake(108.5, 78.5)];
+//
+//    CAShapeLayer *rabinhoLayer = [CAShapeLayer layer];
+//    rabinhoLayer.path = rabinho.CGPath;
+//    rabinhoLayer.fillColor = CGColorCreateSRGB(0, 0, 0, 0);
+//    rabinhoLayer.strokeColor = CGColorCreateSRGB(0, 0, 0, 1);
+//    [myBox.layer addSublayer:rabinhoLayer];
+//
+//    [self.view addSubview:myBox];
+//
+//    UIBezierPath* circularPath = [UIBezierPath bezierPath];
+//    [circularPath moveToPoint:CGPointMake(arc4random_uniform(self.view.frame.size.width), self.view.frame.size.height)];
+//    [circularPath addCurveToPoint:CGPointMake(arc4random_uniform(self.view.frame.size.width), 0)
+//                    controlPoint1:CGPointMake(arc4random_uniform(200), arc4random_uniform(230))
+//                    controlPoint2:CGPointMake(arc4random_uniform(230), arc4random_uniform(240))];
+//
+//
+//    //  Animating layer
+//    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
+//    animation.keyPath = @"position";
+//    animation.path = circularPath.CGPath;
+////    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+//    animation.duration = 5;
+//////    animation.repeatCount = HUGE_VALF;
+////    animation.removedOnCompletion = YES;
+//    animation.repeatCount = 6;
+//    animation.autoreverses = NO;
+//    animation.rotationMode = kCAValueFunctionRotateX;
+//    [myBox.layer addAnimation: animation forKey: @"position"];
     
     
 //

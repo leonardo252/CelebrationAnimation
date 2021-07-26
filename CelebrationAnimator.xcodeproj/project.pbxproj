@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A74B821226AB0F7C002459F6 /* ObjectAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821026AB0F7C002459F6 /* ObjectAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74B821326AB0F7C002459F6 /* ObjectAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821126AB0F7C002459F6 /* ObjectAnimated.m */; };
 		A74B821726AB1058002459F6 /* CelebrationAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821526AB1058002459F6 /* CelebrationAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74B821826AB1058002459F6 /* CelebrationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821626AB1058002459F6 /* CelebrationAnimator.m */; };
+		A74B821C26AEEF6C002459F6 /* AnimatorClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821A26AEEF6C002459F6 /* AnimatorClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74B821D26AEEF6C002459F6 /* AnimatorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821B26AEEF6C002459F6 /* AnimatorClass.m */; };
+		A74B822126AEF032002459F6 /* DrawingClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821F26AEF032002459F6 /* DrawingClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74B822226AEF032002459F6 /* DrawingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B822026AEF032002459F6 /* DrawingClass.m */; };
+		A7D0FF6926AEFEC000963C74 /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
+		A7D0FF6A26AF001800963C74 /* ObjectAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821026AB0F7C002459F6 /* ObjectAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D0FF6B26AF008000963C74 /* CelebrationAnimatorFramework.h in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; };
 		A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D426A843CA00D20F0F /* AppDelegate.m */; };
 		A7FB50D826A843CA00D20F0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D726A843CA00D20F0F /* SceneDelegate.m */; };
 		A7FB50DB26A843CA00D20F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50DA26A843CA00D20F0F /* ViewController.m */; };
@@ -19,7 +25,6 @@
 		A7FB50E326A843CB00D20F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB50E126A843CB00D20F0F /* LaunchScreen.storyboard */; };
 		A7FB50E626A843CB00D20F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50E526A843CB00D20F0F /* main.m */; };
 		A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7FB50FA26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
 		A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB510026A845A100D20F0F /* HelloLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510126A845A100D20F0F /* HelloLogger.m */; };
@@ -32,7 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7FB50F826A844FD00D20F0F /* PBXContainerItemProxy */ = {
+		A7D0FF6626AEFEB800963C74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7FB50C826A843CA00D20F0F /* Project object */;
 			proxyType = 1;
@@ -60,6 +65,10 @@
 		A74B821126AB0F7C002459F6 /* ObjectAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectAnimated.m; sourceTree = "<group>"; };
 		A74B821526AB1058002459F6 /* CelebrationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebrationAnimator.h; sourceTree = "<group>"; };
 		A74B821626AB1058002459F6 /* CelebrationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebrationAnimator.m; sourceTree = "<group>"; };
+		A74B821A26AEEF6C002459F6 /* AnimatorClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatorClass.h; sourceTree = "<group>"; };
+		A74B821B26AEEF6C002459F6 /* AnimatorClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatorClass.m; sourceTree = "<group>"; };
+		A74B821F26AEF032002459F6 /* DrawingClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingClass.h; sourceTree = "<group>"; };
+		A74B822026AEF032002459F6 /* DrawingClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingClass.m; sourceTree = "<group>"; };
 		A7FB50D026A843CA00D20F0F /* CelebrationAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB50D326A843CA00D20F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7FB50D426A843CA00D20F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FB50FA26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Frameworks */,
+				A7D0FF6926AEFEC000963C74 /* CelebrationAnimatorFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +140,31 @@
 			path = "Animation Controll";
 			sourceTree = "<group>";
 		};
+		A74B821926AEEF50002459F6 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A74B821A26AEEF6C002459F6 /* AnimatorClass.h */,
+				A74B821B26AEEF6C002459F6 /* AnimatorClass.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A74B821E26AEEF9F002459F6 /* Draftsman */ = {
+			isa = PBXGroup;
+			children = (
+				A74B821F26AEF032002459F6 /* DrawingClass.h */,
+				A74B822026AEF032002459F6 /* DrawingClass.m */,
+			);
+			path = Draftsman;
+			sourceTree = "<group>";
+		};
+		A7D0FF6826AEFEC000963C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7FB50C726A843CA00D20F0F = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +172,7 @@
 				A7FB510926A849BD00D20F0F /* CelebrationAnimatorSwift */,
 				A7FB50F426A844FD00D20F0F /* CelebrationAnimatorFramework */,
 				A7FB50D126A843CA00D20F0F /* Products */,
+				A7D0FF6826AEFEC000963C74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +223,8 @@
 		A7FB50F426A844FD00D20F0F /* CelebrationAnimatorFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A74B821E26AEEF9F002459F6 /* Draftsman */,
+				A74B821926AEEF50002459F6 /* Animation */,
 				A74B821426AB1045002459F6 /* Animation Controll */,
 				A74B820F26AB0F6B002459F6 /* Object Animation */,
 				A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */,
@@ -221,8 +258,10 @@
 			files = (
 				A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */,
 				A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */,
+				A74B821C26AEEF6C002459F6 /* AnimatorClass.h in Headers */,
+				A74B822126AEF032002459F6 /* DrawingClass.h in Headers */,
+				A7D0FF6A26AF001800963C74 /* ObjectAnimated.h in Headers */,
 				A74B821726AB1058002459F6 /* CelebrationAnimator.h in Headers */,
-				A74B821226AB0F7C002459F6 /* ObjectAnimated.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7FB50F926A844FD00D20F0F /* PBXTargetDependency */,
+				A7D0FF6726AEFEB800963C74 /* PBXTargetDependency */,
 			);
 			name = CelebrationAnimator;
 			productName = CelebrationAnimator;
@@ -369,9 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D0FF6B26AF008000963C74 /* CelebrationAnimatorFramework.h in Sources */,
 				A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */,
 				A74B821826AB1058002459F6 /* CelebrationAnimator.m in Sources */,
 				A74B821326AB0F7C002459F6 /* ObjectAnimated.m in Sources */,
+				A74B821D26AEEF6C002459F6 /* AnimatorClass.m in Sources */,
+				A74B822226AEF032002459F6 /* DrawingClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,10 +430,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7FB50F926A844FD00D20F0F /* PBXTargetDependency */ = {
+		A7D0FF6726AEFEB800963C74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7FB50F226A844FD00D20F0F /* CelebrationAnimatorFramework */;
-			targetProxy = A7FB50F826A844FD00D20F0F /* PBXContainerItemProxy */;
+			targetProxy = A7D0FF6626AEFEB800963C74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
