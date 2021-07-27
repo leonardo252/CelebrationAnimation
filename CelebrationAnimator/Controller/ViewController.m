@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 //#import "HelloLogger.h"
-#import <CelebrationAnimatorFramework/>
+#import "CelebrationAnimator.h"
 
 @interface ViewController ()
 

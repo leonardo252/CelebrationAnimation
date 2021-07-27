@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #include <stdlib.h>
-#include <AnimatorClass.h>
+#include "AnimatorClass.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init:(UIView *)view;
 
-- (void) startAnimation;
+- (void) startAnimation: (NSArray*) names;
 
 @end
 

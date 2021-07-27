@@ -27,20 +27,20 @@
     
     UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(85, 16, 47, 63)];
     CAShapeLayer *shapeOval = [CAShapeLayer layer];
-    shapeOval.fillColor = CGColorCreateSRGB(244, 0, 0, 1);
+    shapeOval.fillColor = CGColorCreateSRGB(((float)rand() / RAND_MAX) * 1,((float)rand() / RAND_MAX) * 1, ((float)rand() / RAND_MAX) * 1, 1);
     shapeOval.path = ovalPath.CGPath;
     [myBox.layer addSublayer:shapeOval];
     
-    UIBezierPath* rabinho = [UIBezierPath bezierPath];
-    [rabinho moveToPoint: CGPointMake(108.5, 110.5)];
-    [rabinho addCurveToPoint: CGPointMake(105.5, 91.5) controlPoint1: CGPointMake(114.5, 94.5) controlPoint2: CGPointMake(105.5, 95.75)];
-    [rabinho addCurveToPoint: CGPointMake(108.5, 78.5) controlPoint1: CGPointMake(105.5, 87.25) controlPoint2: CGPointMake(108.5, 78.5)];
+    UIBezierPath *tail = [UIBezierPath bezierPath];
+    [tail moveToPoint: CGPointMake(108.5, 110.5)];
+    [tail addCurveToPoint: CGPointMake(105.5, 91.5) controlPoint1: CGPointMake(114.5, 94.5) controlPoint2: CGPointMake(105.5, 95.75)];
+    [tail addCurveToPoint: CGPointMake(108.5, 78.5) controlPoint1: CGPointMake(105.5, 87.25) controlPoint2: CGPointMake(108.5, 78.5)];
 
-    CAShapeLayer *rabinhoLayer = [CAShapeLayer layer];
-    rabinhoLayer.path = rabinho.CGPath;
-    rabinhoLayer.fillColor = CGColorCreateSRGB(0, 0, 0, 0);
-    rabinhoLayer.strokeColor = CGColorCreateSRGB(0, 0, 0, 1);
-    [myBox.layer addSublayer:rabinhoLayer];
+    CAShapeLayer *tailLayer = [CAShapeLayer layer];
+    tailLayer.path = tail.CGPath;
+    tailLayer.fillColor = CGColorCreateSRGB(0, 0, 0, 0);
+    tailLayer.strokeColor = CGColorCreateSRGB(0, 0, 0, 1);
+    [myBox.layer addSublayer: tailLayer];
     
     return myBox;
 }

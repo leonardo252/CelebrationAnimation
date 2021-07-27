@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         logger.notHelloText("Leo e Mateus")
         
         let animator = CelebrationAnimator(self.view)
-        animator.startAnimation()
+        animator.startAnimation(["conffeti"])
         
     }
 

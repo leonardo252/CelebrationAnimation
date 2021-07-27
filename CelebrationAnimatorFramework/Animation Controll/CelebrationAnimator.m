@@ -24,31 +24,36 @@
 }
 
 
-- (void) startAnimation {
-    
+- (void) startAnimation: (NSArray*) names {
+
+    NSLog(@"%@", names);
     AnimatorClass *animator = [[AnimatorClass alloc] initWithView: mainView];
-    
-    for (double r = 1.0; r < 5.0; r+=0.1) {
-        NSTimeInterval delayInSeconds = r;
-        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-            for (int i = 1; i <= 5; i++)
-            {
-                [animator animateConffeti: 4];
 
-            }
-        });
+    if([names containsObject:@"conffeti"]) {
+        for (double r = 1.0; r < 5.0; r+=0.1) {
+            NSTimeInterval delayInSeconds = r;
+            dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+            dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+                for (int i = 1; i <= 5; i++)
+                {
+                    [animator animateConffeti: 4];
+
+                }
+            });
+        }
     }
-    for (double r = 1.0; r < 2.0; r+=0.2) {
-        NSTimeInterval delayInSeconds = r;
-        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-            for (int i = 1; i <= 5; i++)
-            {
-                [animator animateBallon: 4];
+    if([names containsObject:@"balloon"]) {
+        for (double r = 1.0; r < 2.0; r+=0.2) {
+            NSTimeInterval delayInSeconds = r;
+            dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+            dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+                for (int i = 1; i <= 5; i++)
+                {
+                    [animator animateBallon: 10];
 
-            }
-        });
+                }
+            });
+        }
     }
 }
 
