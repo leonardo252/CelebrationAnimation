@@ -13,10 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
-        let logger = HelloLogger()
-        logger.hello(withText: "Leo e Mateus")
-        logger.notHelloText("Leo e Mateus")
         
         let animator = CelebrationAnimator(self.view)
         animator.startAnimation(["conffeti"])

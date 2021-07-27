@@ -26,7 +26,6 @@
 
 - (void) startAnimation: (NSArray*) names {
 
-    NSLog(@"%@", names);
     AnimatorClass *animator = [[AnimatorClass alloc] initWithView: mainView];
 
     if([names containsObject:@"conffeti"]) {

@@ -26,8 +26,6 @@
 		A7FB50E626A843CB00D20F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50E526A843CB00D20F0F /* main.m */; };
 		A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB510026A845A100D20F0F /* HelloLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510126A845A100D20F0F /* HelloLogger.m */; };
 		A7FB510B26A849BD00D20F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510A26A849BD00D20F0F /* AppDelegate.swift */; };
 		A7FB510D26A849BD00D20F0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */; };
 		A7FB510F26A849BD00D20F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510E26A849BD00D20F0F /* ViewController.swift */; };
@@ -83,8 +81,6 @@
 		A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CelebrationAnimatorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CelebrationAnimatorFramework.h; sourceTree = "<group>"; };
 		A7FB50F626A844FD00D20F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7FB510026A845A100D20F0F /* HelloLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloLogger.h; sourceTree = "<group>"; };
-		A7FB510126A845A100D20F0F /* HelloLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLogger.m; sourceTree = "<group>"; };
 		A7FB510826A849BD00D20F0F /* CelebrationAnimatorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelebrationAnimatorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB510A26A849BD00D20F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -220,8 +216,6 @@
 				A74B821426AB1045002459F6 /* Animation Controll */,
 				A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */,
 				A7FB50F626A844FD00D20F0F /* Info.plist */,
-				A7FB510026A845A100D20F0F /* HelloLogger.h */,
-				A7FB510126A845A100D20F0F /* HelloLogger.m */,
 			);
 			path = CelebrationAnimatorFramework;
 			sourceTree = "<group>";
@@ -248,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */,
-				A7FB510226A845A100D20F0F /* HelloLogger.h in Headers */,
 				A74B821C26AEEF6C002459F6 /* AnimatorClass.h in Headers */,
 				7CB19D4526B0354A00FEBAD7 /* EnumAnimation.h in Headers */,
 				A74B822126AEF032002459F6 /* DrawingClass.h in Headers */,
@@ -400,7 +393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D0FF6B26AF008000963C74 /* CelebrationAnimatorFramework.h in Sources */,
-				A7FB510326A845A100D20F0F /* HelloLogger.m in Sources */,
 				A74B821826AB1058002459F6 /* CelebrationAnimator.m in Sources */,
 				A74B821D26AEEF6C002459F6 /* AnimatorClass.m in Sources */,
 				A74B822226AEF032002459F6 /* DrawingClass.m in Sources */,
