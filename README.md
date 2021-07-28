@@ -8,7 +8,7 @@
 ## Overview
 Celebration animator is a lib that can add an animation of celebration in an easy way, with confetti and Balloons.
 
-![Animation](Sources/celebrationAnimator.gif)
+<img src="Sources/celebrationAnimator.gif" width="300" />
 
 
 # Usage
