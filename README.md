@@ -49,11 +49,11 @@ The animation will start after this call and will be removed in the end.
 
 #### Objective-C
 
-Add the `LSAnimator` framework to your project.
+Add the `CelebrationAnimator` framework to your project.
 
 #### Swift
 
-Add the `CoreAnimator` framework to your project.
+Add the `CelebrationAnimator` framework to your project.
 
 ### Manually
 
