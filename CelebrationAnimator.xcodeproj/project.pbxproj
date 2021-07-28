@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CB19D3E26B02B2F00FEBAD7 /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
 		7CB19D4126B02BD700FEBAD7 /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
 		7CB19D4526B0354A00FEBAD7 /* EnumAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB19D4426B034A600FEBAD7 /* EnumAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74B821726AB1058002459F6 /* CelebrationAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821526AB1058002459F6 /* CelebrationAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +15,8 @@
 		A74B821D26AEEF6C002459F6 /* AnimatorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B821B26AEEF6C002459F6 /* AnimatorClass.m */; };
 		A74B822126AEF032002459F6 /* DrawingClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A74B821F26AEF032002459F6 /* DrawingClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74B822226AEF032002459F6 /* DrawingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A74B822026AEF032002459F6 /* DrawingClass.m */; };
+		A7A81F3D26B1836000FBD62E /* CelebrationAnimatorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; };
+		A7A81F3E26B1836000FBD62E /* CelebrationAnimatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A7D0FF6B26AF008000963C74 /* CelebrationAnimatorFramework.h in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; };
 		A7FB50D526A843CA00D20F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D426A843CA00D20F0F /* AppDelegate.m */; };
 		A7FB50D826A843CA00D20F0F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50D726A843CA00D20F0F /* SceneDelegate.m */; };
@@ -25,7 +26,6 @@
 		A7FB50E326A843CB00D20F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB50E126A843CB00D20F0F /* LaunchScreen.storyboard */; };
 		A7FB50E626A843CB00D20F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FB50E526A843CB00D20F0F /* main.m */; };
 		A7FB50F726A844FD00D20F0F /* CelebrationAnimatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB50F526A844FD00D20F0F /* CelebrationAnimatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7FB50F326A844FD00D20F0F /* CelebrationAnimatorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A7FB510B26A849BD00D20F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510A26A849BD00D20F0F /* AppDelegate.swift */; };
 		A7FB510D26A849BD00D20F0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510C26A849BD00D20F0F /* SceneDelegate.swift */; };
 		A7FB510F26A849BD00D20F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB510E26A849BD00D20F0F /* ViewController.swift */; };
@@ -35,7 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7D0FF6626AEFEB800963C74 /* PBXContainerItemProxy */ = {
+		A7A81F3F26B1836000FBD62E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7FB50C826A843CA00D20F0F /* Project object */;
 			proxyType = 1;
@@ -45,13 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A7FB50FF26A844FD00D20F0F /* Embed Frameworks */ = {
+		A7A81F4126B1836000FBD62E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A7FB50FB26A844FD00D20F0F /* CelebrationAnimatorFramework.framework in Embed Frameworks */,
+				A7A81F3E26B1836000FBD62E /* CelebrationAnimatorFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB19D3E26B02B2F00FEBAD7 /* CelebrationAnimatorFramework.framework in Frameworks */,
+				A7A81F3D26B1836000FBD62E /* CelebrationAnimatorFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +259,12 @@
 				A7FB50CC26A843CA00D20F0F /* Sources */,
 				A7FB50CD26A843CA00D20F0F /* Frameworks */,
 				A7FB50CE26A843CA00D20F0F /* Resources */,
-				A7FB50FF26A844FD00D20F0F /* Embed Frameworks */,
+				A7A81F4126B1836000FBD62E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7D0FF6726AEFEB800963C74 /* PBXTargetDependency */,
+				A7A81F4026B1836000FBD62E /* PBXTargetDependency */,
 			);
 			name = CelebrationAnimator;
 			productName = CelebrationAnimator;
@@ -412,10 +412,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7D0FF6726AEFEB800963C74 /* PBXTargetDependency */ = {
+		A7A81F4026B1836000FBD62E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7FB50F226A844FD00D20F0F /* CelebrationAnimatorFramework */;
-			targetProxy = A7D0FF6626AEFEB800963C74 /* PBXContainerItemProxy */;
+			targetProxy = A7A81F3F26B1836000FBD62E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
