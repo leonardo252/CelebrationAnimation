@@ -44,6 +44,19 @@ Objective-c
 The animation will start after this call and will be removed in the end.
 
 
+# Installation
+
+#### Objective-C
+
+Add the `LSAnimator` framework to your project.
+
+#### Swift
+
+Add the `CoreAnimator` framework to your project.
+
+### Manually
+
+Either clone the repo and manually add the Files in [CelebrationAnimator](https://github.com/leonardo252/CelebrationAnimation)
 
 
 ## Contributing
